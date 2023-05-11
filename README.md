@@ -11,21 +11,33 @@ The code does not require any additional package besides node. To execute, simpl
 
 The following simulation parameters must be provided by the user:
 
-Simulation time
-Time step
 Density
+
+Timestep
+
+Equilibration time
+
+Simulation time
+
+Output frequency
+
 Box size
 
-The user can select one of the following force computation methods:
+### Force computation methods:
 
 All pairs
+
 Cell list
+
 Neighbour list
-Integration Schemas
+
+
+### Integration Schemas
 
 The user can select one of the following integration schemas:
 
 LeapFrog
+
 Predictor-Corrector
 
 ## Output
